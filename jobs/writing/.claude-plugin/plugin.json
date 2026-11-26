@@ -1,0 +1,9 @@
+{
+  "name": "realty-writing",
+  "description": "Catch AI-sounding writing before it ships.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Realty AI"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "realty-leads",
+  "description": "Answer new inquiries fast and keep every lead moving.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Realty AI"
+  },
+  "license": "MIT"
+}

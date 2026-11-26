@@ -1,0 +1,9 @@
+{
+  "name": "realty-team-leadership",
+  "description": "Check lead handling, see the weekly numbers and answer agent questions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Realty AI"
+  },
+  "license": "MIT"
+}

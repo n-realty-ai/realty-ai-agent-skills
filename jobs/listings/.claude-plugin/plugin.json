@@ -1,0 +1,9 @@
+{
+  "name": "realty-listings",
+  "description": "Prepare the appointment, publish accurate listings and update sellers.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Realty AI"
+  },
+  "license": "MIT"
+}

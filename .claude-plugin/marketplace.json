@@ -1,0 +1,39 @@
+{
+  "name": "realty-ai-agent-skills",
+  "description": "Claude skills for real estate agents, teams and brokerages, grouped by job to be done.",
+  "owner": {
+    "name": "Realty AI"
+  },
+  "plugins": [
+    {
+      "name": "realty-leads",
+      "source": "./jobs/leads",
+      "description": "Answer new inquiries fast and keep every lead moving."
+    },
+    {
+      "name": "realty-listings",
+      "source": "./jobs/listings",
+      "description": "Prepare the appointment, publish accurate listings and update sellers."
+    },
+    {
+      "name": "realty-deals",
+      "source": "./jobs/deals",
+      "description": "Track dates, chase documents and compare offers."
+    },
+    {
+      "name": "realty-team-leadership",
+      "source": "./jobs/team-leadership",
+      "description": "Check lead handling, see the weekly numbers and answer agent questions."
+    },
+    {
+      "name": "realty-back-office",
+      "source": "./jobs/back-office",
+      "description": "Check commissions, close the month and catch expiries."
+    },
+    {
+      "name": "realty-writing",
+      "source": "./jobs/writing",
+      "description": "Catch AI-sounding writing before it ships."
+    }
+  ]
+}

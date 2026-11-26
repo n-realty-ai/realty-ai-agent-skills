@@ -1,0 +1,9 @@
+{
+  "name": "realty-back-office",
+  "description": "Check commissions, close the month and catch expiries.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Realty AI"
+  },
+  "license": "MIT"
+}
