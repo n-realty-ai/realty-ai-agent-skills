@@ -1,6 +1,6 @@
 ---
 name: open-house-promo
-description: "Write the promotion set for one scheduled open house, covering the event post, reminder posts, neighbour invitation and on-site sign-in wording. Use when someone has an open house date and wants it advertised or wants an invite. For follow-up with visitors afterwards, use realty-event-automations."
+description: "Write the promotion set for one scheduled open house, covering the event post, reminder posts, neighbour invitation and on-site sign-in wording. Use when someone has an open house date and wants it advertised or wants an invite. For follow-up with visitors afterwards, use open-house-follow-up."
 ---
 
 # Open house promotion

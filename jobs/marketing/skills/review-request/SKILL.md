@@ -1,6 +1,6 @@
 ---
 name: review-request
-description: "Draft the message asking a client for a review after closing, plus one reminder. Use when a deal closes or someone wants review request wording. To send it automatically when a deal stage changes, pair with realty-event-automations."
+description: "Draft the message asking a client for a review after closing, plus one reminder. Use when a deal closes or someone wants review request wording. To send it automatically when a deal stage changes, use the Zapier instruction in references/workflows.md."
 ---
 
 # Review request

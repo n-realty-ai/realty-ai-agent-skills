@@ -1,6 +1,6 @@
 ---
 name: lead-source-quality
-description: "Group one period's leads by source and outcome and explain poor fit using quoted notes. Use when someone asks which ads, portals or channels bring good leads, or why lead quality is poor. For agent response times, use team-performance-review."
+description: "Group one period's leads by source and outcome and explain poor fit using quoted notes. Use when someone asks which ads, portals or channels bring good leads, or why lead quality is poor. For agent response times, use speed-to-lead-scorecard."
 ---
 
 # Lead source quality review

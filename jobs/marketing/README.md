@@ -49,10 +49,6 @@ One skill per job. Pick the job you need done.
 | Check one ad before it is published | [ad-precheck](skills/ad-precheck/SKILL.md) |
 | Review where good and poor leads came from | [lead-source-quality](skills/lead-source-quality/SKILL.md) |
 
-## Skills used from other jobs
-
-- [realty-event-automations](../leads/skills/realty-event-automations/SKILL.md)
-
 ## Workflows
 
 Full instructions are in [workflows.md](workflows.md). Core workflows are the ones to start with.
@@ -60,7 +56,7 @@ Full instructions are in [workflows.md](workflows.md). Core workflows are the on
 | ID | Workflow | Priority | Use if | Our skill | Existing skill |
 |---|---|---|---|---|---|
 | N8 | [Video script and repurpose pack](workflows.md#n8) | Core | making content eats your week | [short-video-script](skills/short-video-script/SKILL.md) | [social](https://github.com/coreyhaines31/marketingskills/tree/2bf95edb4ebd37198ab7fd18b99ba95c2145ec64/skills/social), [video](https://github.com/coreyhaines31/marketingskills/tree/2bf95edb4ebd37198ab7fd18b99ba95c2145ec64/skills/video) |
-| C1 | [Closing-triggered review request](workflows.md#c1) | Core | a deal just closed | [review-request](skills/review-request/SKILL.md), [realty-event-automations](../leads/skills/realty-event-automations/SKILL.md) | [review-reputation](https://github.com/anthropics/knowledge-work-plugins/tree/5e504ae11498f2b8daa30d86b7dab97b2ecd8092/small-business/skills/review-reputation), [referrals](https://github.com/coreyhaines31/marketingskills/tree/2bf95edb4ebd37198ab7fd18b99ba95c2145ec64/skills/referrals) |
+| C1 | [Closing-triggered review request](workflows.md#c1) | Core | a deal just closed | [review-request](skills/review-request/SKILL.md) | [review-reputation](https://github.com/anthropics/knowledge-work-plugins/tree/5e504ae11498f2b8daa30d86b7dab97b2ecd8092/small-business/skills/review-reputation), [referrals](https://github.com/coreyhaines31/marketingskills/tree/2bf95edb4ebd37198ab7fd18b99ba95c2145ec64/skills/referrals) |
 | M3 | [Weekly content and profile queue](workflows.md#m3) | Core | your content or profiles are going stale | [weekly-content-calendar](skills/weekly-content-calendar/SKILL.md), [google-business-profile-post](skills/google-business-profile-post/SKILL.md) | [social](https://github.com/coreyhaines31/marketingskills/tree/2bf95edb4ebd37198ab7fd18b99ba95c2145ec64/skills/social), [social-content-engine](https://github.com/anthropics/knowledge-work-plugins/tree/5e504ae11498f2b8daa30d86b7dab97b2ecd8092/small-business/skills/social-content-engine) |
 | F4 | [Anniversary and life-event touches](workflows.md#f4) | Add when needed | past clients are not hearing from you | [past-client-anniversary-note](skills/past-client-anniversary-note/SKILL.md) | [buyer-nurture-sequence](https://github.com/SkillMedev/real-estate-agent-stack/tree/d0216171dd74239720abe8bc24854bd9884b7024/skills/buyer-nurture-sequence), [emails](https://github.com/coreyhaines31/marketingskills/tree/2bf95edb4ebd37198ab7fd18b99ba95c2145ec64/skills/emails) |
 | K2 | [Advertising pre-flight](workflows.md#k2) | Add when needed | you are about to publish an ad | [ad-precheck](skills/ad-precheck/SKILL.md) | [fair-housing-overlay](https://github.com/TheProsperityAgent/prosperity-real-estate-skills/tree/b262bb92dea1bedac11b139bf1790496df739ea3/skills/fair-housing-overlay), [compliance-audit](https://github.com/hoangtng/real-estate-agents/tree/b35e143e0806050ff94f522b36eb3af82df1c00a/skills/compliance-audit), [brand-review](https://github.com/anthropics/knowledge-work-plugins/tree/5e504ae11498f2b8daa30d86b7dab97b2ecd8092/marketing/skills/brand-review) |

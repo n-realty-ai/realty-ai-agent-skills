@@ -3,7 +3,7 @@ from decimal import Decimal as D
 from pathlib import Path
 sys.dont_write_bytecode = True
 B = Path(__file__).resolve().parent.parent / 'jobs'
-sys.path[:0] = [str(B / p / 'scripts') for p in ('back-office/skills/brokerage-money-checks', 'team-leadership/skills/team-performance-review', 'writing/skills/plain-writing', 'marketing/skills/listing-description')]
+sys.path[:0] = [str(B / p / 'scripts') for p in ('back-office/skills/commission-breakdown', 'back-office/skills/deposit-exceptions', 'team-leadership/skills/speed-to-lead-scorecard', 'writing/skills/plain-writing', 'marketing/skills/listing-description')]
 import commission, deposit_exceptions as dx, speed_to_lead as sl, check_writing as cw, check_listing as cl
 n = 0
 def ok(c, m):
