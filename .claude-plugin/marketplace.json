@@ -21,6 +21,11 @@
       "description": "Track dates, chase documents and compare offers."
     },
     {
+      "name": "realty-marketing",
+      "source": "./jobs/marketing",
+      "description": "Market listings, publish local content, earn reviews and check ads."
+    },
+    {
       "name": "realty-team-leadership",
       "source": "./jobs/team-leadership",
       "description": "Check lead handling, see the weekly numbers and answer agent questions."
