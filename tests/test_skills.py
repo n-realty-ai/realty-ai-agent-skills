@@ -3,8 +3,8 @@ from decimal import Decimal as D
 from pathlib import Path
 sys.dont_write_bytecode = True
 B = Path(__file__).resolve().parent.parent / 'jobs'
-sys.path[:0] = [str(B / p / 'scripts') for p in ('back-office/skills/brokerage-money-checks', 'team-leadership/skills/team-performance-review', 'writing/skills/plain-writing')]
-import commission, deposit_exceptions as dx, speed_to_lead as sl, check_writing as cw
+sys.path[:0] = [str(B / p / 'scripts') for p in ('back-office/skills/commission-breakdown', 'back-office/skills/deposit-exceptions', 'team-leadership/skills/speed-to-lead-scorecard', 'writing/skills/plain-writing', 'marketing/skills/listing-description')]
+import commission, deposit_exceptions as dx, speed_to_lead as sl, check_writing as cw, check_listing as cl
 n = 0
 def ok(c, m):
     global n; assert c, m; n += 1
@@ -26,4 +26,11 @@ for text, pid in [("It's not just a tool, it's a partner.", 'A1'), ('No fluff. N
     ok(pid in hit(text), (pid, text, hit(text)))
 for clean in ['The deposit is due Friday.', 'Call me if neither time works.', '`leverage` is a code name.', '> We delve into it.', 'Open Customize, then Connectors.', 'The roof was replaced in 2019 and the invoice is on file.']:
     ok(not hit(clean), (clean, hit(clean)))
+for text, name in [('Perfect for a young family.', 'Who should live there'), ('A safe neighbourhood.', 'Safety or school judgment'), ('Near top-rated schools.', 'Safety or school judgment'), ('A must-see home.', 'Empty or hype wording'), ('Call 416-555-0100.', 'Contact detail or link')]:
+    ok(name in {a for a, _ in cl.check(text)}, (name, text, cl.check(text)))
+ok(not cl.check('A 2023 roof and a south-facing yard. The family room opens to the deck.', 100), 'clean listing flagged')
+ok(cl.check('abcdef', 5) == [('Over the limit', '1 characters too long')], cl.check('abcdef', 5))
+for f in B.glob('*/skills/*/SKILL.md'):
+    head = f.read_text().split('---')[1]
+    ok(f'name: {f.parent.name}\n' in head and 'description:' in head, f)
 print(n, 'checks passed')

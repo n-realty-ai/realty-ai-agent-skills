@@ -1,0 +1,9 @@
+{
+  "name": "realty-marketing",
+  "description": "Market listings, publish local content, earn reviews and check ads.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Realty AI"
+  },
+  "license": "MIT"
+}
